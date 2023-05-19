@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: starter.CucumberTestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.451 s <<< FAILURE! - in starter.CucumberTestSuite
+As a user i want to success see detail data KA.as user i want to see Daftar KA Page  Time elapsed: 11.817 s  <<< FAILURE!
+java.lang.AssertionError: Element should be visible
+
