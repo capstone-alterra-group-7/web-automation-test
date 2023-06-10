@@ -10,19 +10,33 @@ import starter.pages.DetailKAPage;
 public class DetailKASteps {
     @Steps
     DetailKAPage detailKA;
-    @Given("user on home page")
-    public void userOnHomePage() {
-        detailKA.onHomePage();
+
+    @Given("user on login page")
+    public void userOnLoginPage() { detailKA.onLoginPage();
     }
 
-    @When("user click menu Daftar KA")
-    public void userClickMenuDaftarKA() {
-        detailKA.clickMenuDaftarKA();
+    @When("user input email")
+    public void userInputEmail() { detailKA.inputEmail("admin@gmail.com");
     }
 
-    @And("user click data KA on Daftar KA page")
-    public void userClickDataKAOnDaftarKAPage() {
-        detailKA.clickDataKA();
+    @And("user input password")
+    public void userInputPassword() { detailKA.inputPassword("qweqwe123");
+    }
+
+    @And("user click login")
+    public void userClickLogin() { detailKA.clickLoginButton();
+    }
+
+    @And("user on dashboard")
+    public void userOnDashboard() { detailKA.onDashboardPage();
+    }
+
+    @And("user click Kereta Api menu")
+    public void userClickKeretaApiMenu() { detailKA.clickMenuKA();
+    }
+
+    @And("user click data KA")
+    public void userClickDataKA() { detailKA.clickdataKA();
     }
 
     @Then("user see detail KA page")
