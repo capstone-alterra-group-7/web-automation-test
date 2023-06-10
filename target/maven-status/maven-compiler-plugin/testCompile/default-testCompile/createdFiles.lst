@@ -1,3 +1,5 @@
-starter\pages\DetailKAPage.class
 starter\CucumberTestSuite.class
+starter\pages\EditKAPage.class
 starter\stepdefinitions\DetailKASteps.class
+starter\stepdefinitions\EditKASteps.class
+starter\pages\DetailKAPage.class

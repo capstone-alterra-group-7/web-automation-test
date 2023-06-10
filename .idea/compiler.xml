@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="web-automation-altashop" />
+        <module name="Web-Automation-TravelBooking" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Web-AltaShop" target="19" />
+      <module name="web-automation-altashop" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
