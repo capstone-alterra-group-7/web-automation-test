@@ -3,7 +3,7 @@ package starter.stepdefinitions;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import net.thucydides.core.annotations.Steps;
-import starter.pages.EditKAPage;
+import starter.pages.Admin.DaftarKeretaApi.EditKAPage;
 
 public class EditKASteps {
     @Steps
@@ -34,5 +34,21 @@ public class EditKASteps {
 
     @Then("user can see daftar KA page")
     public void userCanSeeDaftarKAPage() { editKA.seeDaftarKApage();
+    }
+
+    @And("user click Tambah Rute")
+    public void userClickTambahRute() { editKA.ButtonTambahRute();
+    }
+
+    @And("user chosee Pilih Perjalanan")
+    public void userChoseePilihPerjalanan() { editKA.ButtonPilihPerjalanan();
+    }
+
+    @And("user click Tambahkan")
+    public void userClickTambahkan() { editKA.clickTambahkanRute();
+    }
+
+    @And("user input Jam Tiba")
+    public void userInputJamTiba() { editKA.inputJamTiba("0800");
     }
 }
