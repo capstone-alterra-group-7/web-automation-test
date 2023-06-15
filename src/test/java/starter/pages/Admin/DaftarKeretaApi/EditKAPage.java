@@ -1,4 +1,4 @@
-package starter.pages;
+package starter.pages.Admin.DaftarKeretaApi;
 
 import net.thucydides.core.pages.PageObject;
 import org.openqa.selenium.By;
@@ -7,7 +7,7 @@ public class EditKAPage extends PageObject {
 
     // =============================== Locator ===============================
     private By dataKAactive() {
-        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[6]");}
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[4]");}
 
     private By clickButtonUbahKA() {
         return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/div[1]/div/div/button[1]");}
@@ -26,6 +26,17 @@ public class EditKAPage extends PageObject {
 
     private By titleDaftarKA() {
         return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/h1");}
+    private By tambahRuteBtn() {
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div/button");}
+
+    private By pilihPerjalanan() {
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[4]/div/div[1]/div[2]/div[2]/input");}
+
+    private By tambahkanRuteButton() {
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[4]/div/div[2]/button[2]");}
+    private By clickJamTiba() {
+        return By.xpath("/html/body/div/div/div[2]/div/div[2]/div[2]/div[3]/div/div/div[2]/input");}
+
     //=============================================== Functional ======================================================
 
     public void clickDataKAactive() {
@@ -54,5 +65,21 @@ public class EditKAPage extends PageObject {
 
     public void seeDaftarKApage() {
         $(titleDaftarKA()).shouldBeVisible();
+    }
+
+    public void ButtonTambahRute() {
+        $(tambahRuteBtn()).click();
+    }
+
+    public void ButtonPilihPerjalanan() {
+        $(pilihPerjalanan()).click();
+    }
+
+    public void clickTambahkanRute() {
+        $(tambahkanRuteButton()).click();
+    }
+
+    public void inputJamTiba(String JamTiba) {
+        $(clickJamTiba()).type(JamTiba);
     }
 }
