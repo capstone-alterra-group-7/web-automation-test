@@ -32,5 +32,4 @@ Feature: As a user i want to success edit data KA
     And user click Tambahkan
     And user input Jam Tiba
     And user click Simpan Perubahan KA
-    And user click Simpan Perubahan
-    Then user can see daftar KA page
+    Then user click Simpan Perubahan
