@@ -25,7 +25,7 @@ public class EditKAPage extends PageObject {
         return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[3]/div/div/button[2]");}
 
     private By titleDaftarKA() {
-        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/h1");}
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]");}
     private By tambahRuteBtn() {
         return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div/button");}
 
