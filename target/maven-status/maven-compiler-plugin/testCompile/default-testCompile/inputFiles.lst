@@ -1,6 +1,7 @@
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Admin\DaftarKeretaApi\TambahKASteps.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Admin\DaftarPengguna\TambahPenggunaSteps.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\CucumberTestSuite.java
+D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\LoginPage.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\TransaksiPesananKA\DetailPesananKApage.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\DaftarStasiun\DaftarStasiun.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Admin\TransaksiPesananHotel\DetailTransaksiPesananHotelSteps.java
@@ -8,6 +9,7 @@ D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\Daft
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\DaftarTiketKeretaApi\LihatTiketKAPage.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\DaftarKeretaApi\EditKAPage.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Admin\DaftarPengguna\EditPenggunaSteps.java
+D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Login\LoginSteps.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\DaftarKeretaApi\TambahKAPage.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Admin\DaftarStasiun\DaftarStasiunSteps.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Admin\TransaksiPesananKA\DetailPesananKASteps.java
