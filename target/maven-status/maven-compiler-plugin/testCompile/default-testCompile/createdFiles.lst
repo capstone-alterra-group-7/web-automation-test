@@ -1,5 +1,7 @@
+starter\stepdefinitions\Admin\TransaksiPesananKA\DetailPesananKASteps.class
 starter\stepdefinitions\Admin\DaftarPengguna\EditPenggunaSteps.class
 starter\pages\Admin\DaftarKeretaApi\EditKAPage.class
+starter\pages\Admin\TransaksiPesananKA\DetailPesananKApage.class
 starter\stepdefinitions\Admin\DaftarPengguna\TambahPenggunaSteps.class
 starter\stepdefinitions\Delete_KA_Steps.class
 starter\pages\Admin\DaftarKeretaApi\TambahKAPage.class
