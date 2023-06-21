@@ -82,7 +82,7 @@ public class LihatTiketKASteps {
     @And("user click search field and input name of ticket to see ticket ka2")
     public void userInputTicketOnSearchField() {
         LihatTiketKAPage.clickSearchFieldKA();
-        LihatTiketKAPage.inputSearchTiketKA("KA EXPRESS");
+        LihatTiketKAPage.inputSearchTiketKA("MATAMARJA");
     }
     @And("user can see ticket ka2")
     public void userCanSeeTicketKA() {

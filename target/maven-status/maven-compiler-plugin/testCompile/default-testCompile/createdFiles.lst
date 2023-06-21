@@ -6,6 +6,8 @@ starter\pages\Admin\DaftarKeretaApi\TambahKAPage.class
 starter\pages\Admin\DaftarPengguna\EditPenggunaPage.class
 starter\pages\DetailKAPage.class
 starter\pages\Admin\DaftarPengguna\TambahPenggunaPage.class
+starter\pages\Admin\TransaksiPesananHotel\DetailTransaksiPesananHotelPage.class
+starter\stepdefinitions\Admin\TransaksiPesananHotel\DetailTransaksiPesananHotelSteps.class
 starter\stepdefinitions\DetailKASteps.class
 starter\pages\Delete_KA.class
 starter\stepdefinitions\Admin\DaftarStasiun\DaftarStasiunSteps.class
