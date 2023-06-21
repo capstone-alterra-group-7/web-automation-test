@@ -1,4 +1,4 @@
-package starter.pages;
+package starter.pages.Login;
 
 import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.By;

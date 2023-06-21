@@ -2,7 +2,7 @@ package starter.stepdefinitions.Login;
 
 import io.cucumber.java.en.And;
 import net.thucydides.core.annotations.Steps;
-import starter.pages.LoginPage;
+import starter.pages.Login.LoginPage;
 
 public class LoginSteps {
     @Steps
