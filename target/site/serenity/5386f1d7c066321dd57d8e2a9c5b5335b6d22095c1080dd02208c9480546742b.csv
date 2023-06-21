@@ -1,5 +1,0 @@
-"Story","Title","Result","Date","Stability","Duration (s)"
-"As a admin i want to see ticket of KA","as admin i want to see list of ticket ka","SUCCESS","2023-06-21T14:46:21.966+07:00[Asia/Bangkok]","0.0","12.37"
-"As a admin i want to see ticket of KA","as admin i want to see list of ticket ka and search ticket","FAILURE","2023-06-21T14:46:35.395+07:00[Asia/Bangkok]","0.0","10.53"
-"As a admin i want to see ticket of KA","as admin i want to see list of ticket ka with date filter","FAILURE","2023-06-21T14:46:48.258+07:00[Asia/Bangkok]","0.0","19.54"
-"As a admin i want to see ticket of KA","as admin i want to see ticket with unpaid filter","FAILURE","2023-06-21T14:47:08.92+07:00[Asia/Bangkok]","0.0","13.36"
