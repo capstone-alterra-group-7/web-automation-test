@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="UTF-8"/>
-    <title>Capabilities</title>
+    <title>Themes</title>
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
@@ -154,7 +154,7 @@
             $("#requirements-tabs").tabs();
             $("#test-tabs").tabs();
 
-            var requirementsTree = [];
+            var requirementsTree = [{"text":"Login","type":"theme","href":"8cf38a98ac2b6309e501b26fbc59897e2899051cf4d0b94fa6681c8db0a8e560.html","nodes":[{"text":"As a admin i can login so that i can see dashboard page","type":"feature","href":"1cf237b1ceb5449fb02f99f61ba7061cfa6cd3553ed478dce222a851b7e0c299.html","nodes":[],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 scenario\u003c/span\u003e"]}],"selectable":false,"tags":["\u003ca href\u003d\u0027##beforetable\u0027\u003e\u003ci class\u003d\u0027bi bi-check-circle-fill success-icon \u0027 title\u003d\u0027SUCCESS\u0027\u003e\u003c/i\u003e\u003c/a\u003e","\u003cspan class\u003d\u0027feature-count\u0027\u003e1 feature\u003c/span\u003e"]}];
 
             $('#tree').treeview({
                 data: requirementsTree,
@@ -203,7 +203,7 @@
 
 
 
-                    > <span class="truncate-40">Transaksi Pesanan Ka</span>
+                    > <span class="truncate-40">Login</span>
 
             </span>
         </div>
@@ -221,17 +221,17 @@
         <li >
             <a href="capabilities.html"><i class="bi bi-journal-text"></i> Requirements</a>
         </li>
-        <li >
-            <a href="dafb266f68444cb7f2451c923d70c1428ac45470c361842b818e6daa9bcd4fa8.html"><i class="bi bi-chat-text"></i> Themes</a>
-        </li>
         <li class="active">
-            <a href="#"><i class="bi bi-chat-text"></i> Capabilities</a>
+            <a href="#"><i class="bi bi-chat-text"></i> Themes</a>
+        </li>
+        <li >
+            <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="bi bi-chat-text"></i> Capabilities</a>
         </li>
         <li >
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated </span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 22-06-2023 00:08</span>
     <br style="clear:left"/>
 </div>
 
@@ -248,7 +248,7 @@
 
                                     <div class="col-sm-12">
                                         <span>
-                                            <h2><i class="bi bi-book"></i> Capability: Transaksi Pesanan Ka</h2>
+                                            <h2><i class="bi bi-book"></i> Theme: Login</h2>
                                         </span>
                                     </div>
                                 </div>
@@ -285,6 +285,9 @@
                                                 <h3>Feature Coverage By Scenario</h3>
 
                                                 <!-- REQUIREMENTS PIE CHART -->
+                                                    <div class="chart-container" style="position: relative; width:30vw">
+                                                        <canvas id="requirementChart" width="300" height="300"></canvas>
+                                                    </div>
 
                                             </div>
                                             <div class="col-sm-8">
@@ -302,60 +305,60 @@
                     <td>
                         <i class="bi bi-card-checklist"></i> Number of Scenarios
                     </td>
-                    <td>0</td>
+                    <td>1</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-caret-right"></i> Total Number of Test Cases
                     </td>
-                    <td>0</td>
+                    <td>1</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-flag-fill"></i> Tests Started
                     </td>
-                    <td></td>
+                    <td>Jun 22, 2023 00:08:40</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stop-circle"></i> Tests
                         Finished
                     </td>
-                    <td></td>
+                    <td>Jun 22, 2023 00:08:53</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stopwatch"></i> Total
                         Duration
                     </td>
-                    <td>0ms</td>
+                    <td>13s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-trophy"></i> Fastest Test
                     </td>
-                    <td>0ms</td>
+                    <td>13s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-skip-start"></i> Slowest
                         Test
                     </td>
-                    <td>0ms</td>
+                    <td>13s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stopwatch"></i> Average
                         Execution Time
                     </td>
-                    <td>0ms</td>
+                    <td>13s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stopwatch-fill"></i> Total
                         Execution Time
                     </td>
-                    <td>0ms</td>
+                    <td>13s</td>
                 </tr>
                 </tbody>
             </table>
@@ -374,6 +377,9 @@
                                             <div class="col-sm-4">
                                                 <h3>Feature Coverage By Scenario</h3>
                                                 <!-- TEST RESULT PIE CHART -->
+                                                    <div class="chart-container" style="position: relative; width:30vw">
+                                                        <canvas id="resultChart" width="300" height="300"></canvas>
+                                                    </div>
                                             </div>
                                             <div class="col-sm-4">
                                                 <h4><i class="bi bi-check-square"></i> Test Outcomes</h4>
@@ -405,22 +411,22 @@
                     <td>
                         <i class="bi bi-card-checklist"></i> Number of Scenarios
                     </td>
-                    <td>0</td>
+                    <td>1</td>
                     <td>
                         <i class="bi bi-stopwatch"></i> Total
                         Duration
                     </td>
-                    <td>0ms</td>
+                    <td>13s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-caret-right"></i> Total Number of Test Cases
                     </td>
-                    <td>0</td>
+                    <td>1</td>
                     <td>
                         <i class="bi bi-trophy"></i> Fastest Test
                     </td>
-                    <td>0ms</td>
+                    <td>13s</td>
                 </tr>
                 <tr scope="row">
                     <td>
@@ -431,30 +437,30 @@
                         <i class="bi bi-skip-start"></i> Slowest
                         Test
                     </td>
-                    <td>0ms</td>
+                    <td>13s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-flag-fill"></i> Tests Started
                     </td>
-                    <td></td>
+                    <td>Jun 22, 2023 00:08:40</td>
                     <td>
                         <i class="bi bi-stopwatch"></i> Average
                         Execution Time
                     </td>
-                    <td>0ms</td>
+                    <td>13s</td>
                 </tr>
                 <tr scope="row">
                     <td>
                         <i class="bi bi-stop-circle"></i> Tests
                         Finished
                     </td>
-                    <td></td>
+                    <td>Jun 22, 2023 00:08:53</td>
                     <td>
                         <i class="bi bi-stopwatch-fill"></i> Total
                         Execution Time
                     </td>
-                    <td>0ms</td>
+                    <td>13s</td>
                 </tr>
                 </tbody>
             </table>
@@ -463,7 +469,36 @@
 
                                                 <h3><i class="bi bi-gear"></i> Automated Tests</h3>
 
-                                                    No automated tests were executed
+                                                    <table class="scenario-result-table table" id="scenario-results">
+                                                        <thead>
+                                                        <tr>
+                                                            <th>feature</th>
+                                                            <th class="test-name-column">Scenario</th>
+                                                            <th>Context</th>
+                                                            <th>Steps</th>
+                                                            <th>Started</th>
+                                                            <th>Total Duration</th>
+                                                            <th>Result</th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                                <tr class="scenario-result SUCCESS">
+                                                                    <td>
+                                                                            <a href="1cf237b1ceb5449fb02f99f61ba7061cfa6cd3553ed478dce222a851b7e0c299.html">As a admin i can login so that i can see dashboard page</a>
+                                                                    </td>
+                                                                    <td>
+                                                                        <a href="705b22560fd9dd8851325a6ebf2ccb5c4b8d5fd3eeb615753274dba6404f1d37.html">as admin i can login so that i can see dashboard page</a>
+                                                                    </td>
+                                                                    <td><span class='context-icon'><i class='bi bi-browser-chrome' title='Chrome'></i> <i class='bi bi-windows' title='Windows'></i></span><span style="display:none">Chrome,windows</span> </td>
+                                                                    <td>5</td>
+                                                                    <td>00:08:40</td>
+                                                                    <td>13s 154ms</td>
+                                                                    <td><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon ' title='SUCCESS'></i></a> <span
+                                                                                style="display:none">SUCCESS</span>
+                                                                    </td>
+                                                                </tr>
+                                                        </tbody>
+                                                    </table>
 
                                             </div>
                                         </div>
@@ -477,6 +512,44 @@
                                             </div>
                                         </div>
 
+        <div class="row">
+            <div class="col-sm-12">
+                <h3>Tags</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <div>
+                                    <a href="c721517496ffad35fe9a5d73f07a9bd15eb22da3cff8328e1d9f7ec70655c6b0.html">
+                                    <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> Login&nbsp;&nbsp;&nbsp;1
+                                    </span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                                <h5 class="card-title">Context</h5>
+                            <div>
+                                    <a href="6fe0671aeea9e76b6998ee682216d11c7748a4152740df0586f3c256ecb3f5da.html">
+                                    <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> Chrome&nbsp;&nbsp;&nbsp;1
+                                    </span>
+                                    </a>
+                                    <a href="f55cf301e8f51d63aebeb8bc8dbe880df940586e2a502c7a3e24c2b639523f8f.html">
+                                    <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> Windows&nbsp;&nbsp;&nbsp;1
+                                    </span>
+                                    </a>
+                                    <a href="59736924e81ea98f655ac8eba7cd96079d8d80131e0c4360daf32a724d0b38a0.html">
+                                    <span class="tag-badge badge" style="background-color:#b0cf73; margin:1em;padding:4px;">
+                                        <i class="bi bi-tag-fill"></i> Chrome, Windows&nbsp;&nbsp;&nbsp;1
+                                    </span>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
                                     </div>
                                 </div>
                             </div>
@@ -503,21 +576,21 @@
 
         // Options define for display value on top of bars
         const outcomeDetailsReports = [
-            { title: 'Passing Test Cases', link: "6ceb6ee36dd7ac32640518be7fd71ebb9b2662922af28da95c0a2478d30b3583.html" },
-            { title: 'Pending Test Cases', link: "e1dba1eb02c11e3640d8ca73dcb7b93f47187509c678e6bf6d12158250c5c7e0.html" },
-            { title: 'Ignored Test Cases', link: "bbba993730d0785665f26d806541bf42b32d22cc2e0ca28042e8c1622c28d8ab.html" },
-            { title: 'Skipped Test Cases', link: "f3b22f3ac4241ff0f133de59c5e6cb7bb07699a63b57ad83628af08569716dbf.html" },
-            { title: 'Aborted Test Cases',  link: "a7014f32ea7948424f69551ce8dad1959b479889933253a185446d39a72a68df.html"},
-            { title: 'Failed Test Cases', link: "0f1c783de58c441b886802886111d7522aaa62d5529137df61307fbe2ec1e16d.html"  },
-            { title: 'Broken Test Cases', link: "c929db4a3bbee26375144aa70a8f6d976909f76905767cedaa4eacdcc07ead90.html"    },
-            { title: 'Compromised Test Cases',  link: "a43e4dcd0c7f2564baa81a07685d7633e143733546494369d0c7fff4b04e0bc2.html" },
+            { title: 'Passing Test Cases', link: "be357833d81781a67194796f74b81c4f90b4336283634d0ead3651d9add6c4a3.html" },
+            { title: 'Pending Test Cases', link: "75f0771aad20387a68be53a01f1556b9c9d648cf6f3b492170e7f8ee9135b4d6.html" },
+            { title: 'Ignored Test Cases', link: "9f709059fb68ee12f00a0b51ca5e8c99cb6853c5de207510dc775cd20823c03b.html" },
+            { title: 'Skipped Test Cases', link: "924aa7dc696c764cd9c5cc1410c13e2d2e5ea0f675f8efeba6f7da21b6ce7855.html" },
+            { title: 'Aborted Test Cases',  link: "d369351a575fe6e1c3dbb14a5ae9893a4a3880625450c1e9f98cbbd9d033488f.html"},
+            { title: 'Failed Test Cases', link: "fce7b670a0a160d42830a81495985b8a1bcd4103b919d0d4e939bc18b8e5ecc6.html"  },
+            { title: 'Broken Test Cases', link: "70160d210eb55534229ee6c92bbcbfec7edc5e5b5eb98374c38e97b7498e16a4.html"    },
+            { title: 'Compromised Test Cases',  link: "8f7ac304f52deb8ccb9f8086bd2a6e51ade8555828933a3f005be1160c9bfe10.html" },
         ]
         const outcomeData = {
             labels: ['Passing Test Cases', 'Pending Test Cases', 'Ignored Test Cases', 'Skipped Test Cases', 'Aborted Test Cases', 'Failed Test Cases', 'Broken Test Cases', 'Compromised Test Cases','Undefined Test Cases'],
             datasets: [{
                 label: 'Test Results',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 1}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -568,7 +641,7 @@
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
 
-                        var text = " "
+                        var text = "100%"
                         textX = 10 + Math.round((width - ctx.measureText(text).width) / 2);
                         textY = (height / 2) - 40;
 
@@ -597,14 +670,14 @@
 
         // Options define for display value on top of bars
         const requirementsOutcomeDetailsReports = [
-            { title: 'Passing Test Cases', link: "6ceb6ee36dd7ac32640518be7fd71ebb9b2662922af28da95c0a2478d30b3583.html" },
-            { title: 'Pending Test Cases', link: "e1dba1eb02c11e3640d8ca73dcb7b93f47187509c678e6bf6d12158250c5c7e0.html" },
-            { title: 'Ignored Test Cases', link: "bbba993730d0785665f26d806541bf42b32d22cc2e0ca28042e8c1622c28d8ab.html" },
-            { title: 'Skipped Test Cases', link: "f3b22f3ac4241ff0f133de59c5e6cb7bb07699a63b57ad83628af08569716dbf.html" },
-            { title: 'Aborted Test Cases',  link: "a7014f32ea7948424f69551ce8dad1959b479889933253a185446d39a72a68df.html"},
-            { title: 'Failed Test Cases', link: "0f1c783de58c441b886802886111d7522aaa62d5529137df61307fbe2ec1e16d.html"  },
-            { title: 'Broken Test Cases', link: "c929db4a3bbee26375144aa70a8f6d976909f76905767cedaa4eacdcc07ead90.html"    },
-            { title: 'Compromised Test Cases',  link: "a43e4dcd0c7f2564baa81a07685d7633e143733546494369d0c7fff4b04e0bc2.html" },
+            { title: 'Passing Test Cases', link: "be357833d81781a67194796f74b81c4f90b4336283634d0ead3651d9add6c4a3.html" },
+            { title: 'Pending Test Cases', link: "75f0771aad20387a68be53a01f1556b9c9d648cf6f3b492170e7f8ee9135b4d6.html" },
+            { title: 'Ignored Test Cases', link: "9f709059fb68ee12f00a0b51ca5e8c99cb6853c5de207510dc775cd20823c03b.html" },
+            { title: 'Skipped Test Cases', link: "924aa7dc696c764cd9c5cc1410c13e2d2e5ea0f675f8efeba6f7da21b6ce7855.html" },
+            { title: 'Aborted Test Cases',  link: "d369351a575fe6e1c3dbb14a5ae9893a4a3880625450c1e9f98cbbd9d033488f.html"},
+            { title: 'Failed Test Cases', link: "fce7b670a0a160d42830a81495985b8a1bcd4103b919d0d4e939bc18b8e5ecc6.html"  },
+            { title: 'Broken Test Cases', link: "70160d210eb55534229ee6c92bbcbfec7edc5e5b5eb98374c38e97b7498e16a4.html"    },
+            { title: 'Compromised Test Cases',  link: "8f7ac304f52deb8ccb9f8086bd2a6e51ade8555828933a3f005be1160c9bfe10.html" },
             { title: 'Undefined Test Cases',  link: "" },
         ]
         const requirementsOutcomeData = {
@@ -612,7 +685,7 @@
             datasets: [{
                 label: 'Feature Coverage',
                 fill: false,
-                data: [{meta: 'Passing tests', value: 0}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
+                data: [{meta: 'Passing tests', value: 1}, {meta: 'Pending tests', value: 0}, {meta: 'Ignored tests', value: 0}, {meta: 'Skipped tests', value: 0}, {meta: 'Aborted tests', value: 0}, {meta: 'Failing tests', value: 0}, {meta: 'Broken tests', value: 0}, {meta: 'Compromised tests', value: 0}],
                 backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                 borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                 borderWidth: 1,
@@ -663,7 +736,7 @@
                         ctx.font = fontSize + "em sans-serif";
                         ctx.textBaseline = "middle";
 
-                        var text = " "
+                        var text = "100%"
                         textX = 10 + Math.round((width - ctx.measureText(text).width) / 2);
                         textY = (height / 2) - 40;
 
@@ -694,21 +767,21 @@
         // Options define for display value on top of bars
 
         const severityDetailsReports = [
-            { title: 'Passing Scenarios', link: "6ceb6ee36dd7ac32640518be7fd71ebb9b2662922af28da95c0a2478d30b3583.html" },
-            { title: 'Pending Scenarios', link: "e1dba1eb02c11e3640d8ca73dcb7b93f47187509c678e6bf6d12158250c5c7e0.html" },
-            { title: 'Ignored Scenarios', link: "bbba993730d0785665f26d806541bf42b32d22cc2e0ca28042e8c1622c28d8ab.html" },
-            { title: 'Skipped Scenarios', link: "f3b22f3ac4241ff0f133de59c5e6cb7bb07699a63b57ad83628af08569716dbf.html" },
-            { title: 'Aborted Scenarios',  link: "a7014f32ea7948424f69551ce8dad1959b479889933253a185446d39a72a68df.html"},
-            { title: 'Failed Scenarios', link: "0f1c783de58c441b886802886111d7522aaa62d5529137df61307fbe2ec1e16d.html"  },
-            { title: 'Broken Scenarios', link: "c929db4a3bbee26375144aa70a8f6d976909f76905767cedaa4eacdcc07ead90.html"    },
-            { title: 'Compromised Scenarios',  link: "a43e4dcd0c7f2564baa81a07685d7633e143733546494369d0c7fff4b04e0bc2.html" },
+            { title: 'Passing Scenarios', link: "be357833d81781a67194796f74b81c4f90b4336283634d0ead3651d9add6c4a3.html" },
+            { title: 'Pending Scenarios', link: "75f0771aad20387a68be53a01f1556b9c9d648cf6f3b492170e7f8ee9135b4d6.html" },
+            { title: 'Ignored Scenarios', link: "9f709059fb68ee12f00a0b51ca5e8c99cb6853c5de207510dc775cd20823c03b.html" },
+            { title: 'Skipped Scenarios', link: "924aa7dc696c764cd9c5cc1410c13e2d2e5ea0f675f8efeba6f7da21b6ce7855.html" },
+            { title: 'Aborted Scenarios',  link: "d369351a575fe6e1c3dbb14a5ae9893a4a3880625450c1e9f98cbbd9d033488f.html"},
+            { title: 'Failed Scenarios', link: "fce7b670a0a160d42830a81495985b8a1bcd4103b919d0d4e939bc18b8e5ecc6.html"  },
+            { title: 'Broken Scenarios', link: "70160d210eb55534229ee6c92bbcbfec7edc5e5b5eb98374c38e97b7498e16a4.html"    },
+            { title: 'Compromised Scenarios',  link: "8f7ac304f52deb8ccb9f8086bd2a6e51ade8555828933a3f005be1160c9bfe10.html" },
         ]
         const severityData = {
             labels: ['Passing', 'Pending', 'Ignored', 'Skipped', 'Aborted', 'Failed', 'Broken', 'Compromised'],
             datasets: [
                 {
                     label: 'Automated',
-                    data: [0,0,0,0,0,0,0,0],
+                    data: [1,0,0,0,0,0,0,0],
                     backgroundColor: ['rgba(153,204,51,0.5)','rgba(165, 199, 238, 0.5)','rgba(168, 168, 168, 0.5)','rgba(238, 224, 152, 0.75)','rgba(255, 153, 102, 0.5)','rgba(255, 22, 49, 0.5)','rgba(255, 97, 8, 0.5)','rgba(255, 104, 255, 0.5)','rgba(83, 50, 168, 0.5)'],
                     borderColor: ['rgba(153,204,51,1)','rgba(165, 199, 238, 1)','rgba(168, 168, 168, 1)','rgba(238, 224, 152, 1)','rgba(255, 153, 102, 1)','rgba(255, 22, 49, 1)','rgba(255, 97, 8, 1)','rgba(255, 104, 255, 1)','rgba(83, 50, 168, 1)'],
                     borderWidth: 1
@@ -772,14 +845,14 @@
 
         // Options define for display value on top of bars
         const durationDetailsReports = [
-                {title: "Under 1 second", link: "b713287c6291e4028178d55c2e61e865064e34ad017f988e668c78ef3913368f.html"},
-                {title: "1 to 10 seconds", link: "60ae3be798734918178b04557ea5fe9f344d3c328c299896f0405655683538de.html"},
-                {title: "10 to 30 seconds", link: "d3292e61a4ff0e9b90a26efdb40285a6279e7f9c9c1a5ba803506788671d7561.html"},
-                {title: "30 to 60 seconds", link: "919c78dcb6d7f0326371bead63bf416ded32253b9c5799329d5b030d0d79aa4c.html"},
-                {title: "1 to 2 minutes", link: "849358709d6e21bed5ac979a8a3f4839fcb1f9acb5d53aec2bcb3f8380b8e2b9.html"},
-                {title: "2 to 5 minutes", link: "1c591715b62c1a5f4935a2afccb0e9b8a7662de4a329a6af7d06f58d03930e05.html"},
-                {title: "5 to 10 minutes", link: "2c048185f3dfda5eb268dede6327331d85292bfe8d52bac3f72e9682beb96d33.html"},
-                {title: "10 minutes or over", link: "bf8f96d036c57649b90e65e3e35aea928a6beca905690e5d3837310f3e3a8030.html"},
+                {title: "Under 1 second", link: "d1c88d42cb5a2f21d767ad147be1be60e5402430ad1cf530a37278ca351a3301.html"},
+                {title: "1 to 10 seconds", link: "804e92733110dcbe73545253e082490443f0742b3d20f3100637044d078fc570.html"},
+                {title: "10 to 30 seconds", link: "d2af66545c8eed682509291a8efff2fa72b43c4f70531a49d7d9b638a1d6e280.html"},
+                {title: "30 to 60 seconds", link: "b20093087b61d9d60a438ad691ed4ff22b8ee66faa4b496e247f67a8d0817401.html"},
+                {title: "1 to 2 minutes", link: "a904011ecb4ed57caa6315f307fe032d6dbff64fd9f37469e019634b9e4cd3dc.html"},
+                {title: "2 to 5 minutes", link: "08574f6fa0a94da0fa3d545d0537ac045dd753cc8dad44ba1026be22f43a9b06.html"},
+                {title: "5 to 10 minutes", link: "631816f9b04cc0890a2cd9c2b50e63e6da52a4a5908baa787f16994357e203b1.html"},
+                {title: "10 minutes or over", link: "110ed66df89552ea43bf1668bec95d418edf3c0eafcabd22f3266848077367c9.html"},
         ]
         // The Severity bar chart
         const durationChartCtx = document.getElementById('durationChart');
@@ -791,7 +864,7 @@
             datasets: [{
                 label: 'Number of tests per duration',
                 fill: false,
-                data: ['0','0','0','0','0','0','0','0'],
+                data: ['0','0','1','0','0','0','0','0'],
                 backgroundColor: 'rgba(83, 146, 255,0.5)',
                 borderColor: 'rgba(83, 146, 255, 1)',
             }]
