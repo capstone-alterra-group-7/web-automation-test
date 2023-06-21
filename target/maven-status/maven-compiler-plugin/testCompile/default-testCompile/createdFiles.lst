@@ -16,8 +16,10 @@ starter\stepdefinitions\Admin\DaftarStasiun\DaftarStasiunSteps.class
 starter\stepdefinitions\Admin\DaftarTiketKeretaApi\LihatTiketKASteps.class
 starter\stepdefinitions\Login\LoginSteps.class
 starter\pages\Admin\DaftarStasiun\DaftarStasiun.class
+starter\pages\Login\LoginPage.class
 starter\CucumberTestSuite.class
-starter\pages\LoginPage.class
 starter\stepdefinitions\EditKASteps.class
+starter\pages\Logout\LogoutPage.class
 starter\stepdefinitions\Admin\DaftarKeretaApi\TambahKASteps.class
 starter\pages\Admin\DaftarTiketKeretaApi\LihatTiketKAPage.class
+starter\stepdefinitions\Logout\LogoutSteps.class
