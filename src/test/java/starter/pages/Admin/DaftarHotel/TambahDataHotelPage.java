@@ -160,17 +160,13 @@ public class TambahDataHotelPage extends PageObject {
    /* public void clickDivKelasHotel() {
         $(DivKelasHotel()).click();
     } */
-
     public void inputDeskripsiHotel(String DeskripsiHotel) {
         $(deskripsiHotelField()).type(DeskripsiHotel);
     }
 
-
     public void inputNomorTelepon(String NomorTelepon) {
         $(nomorTeleponField()).type(NomorTelepon);
     }
-
-
     public void inputEmailHotel(String Email) {
         $(emailField()).type(Email);
     }
