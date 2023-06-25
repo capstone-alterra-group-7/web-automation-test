@@ -15,9 +15,11 @@ starter\pages\Delete_KA.class
 starter\stepdefinitions\Admin\DaftarStasiun\DaftarStasiunSteps.class
 starter\stepdefinitions\Admin\DaftarTiketKeretaApi\LihatTiketKASteps.class
 starter\stepdefinitions\Login\LoginSteps.class
+starter\pages\Admin\DaftarHotel\TambahDataHotelPage.class
 starter\pages\Admin\DaftarStasiun\DaftarStasiun.class
 starter\pages\Login\LoginPage.class
 starter\CucumberTestSuite.class
+starter\stepdefinitions\TambahDataHotelSteps.class
 starter\stepdefinitions\EditKASteps.class
 starter\pages\Logout\LogoutPage.class
 starter\stepdefinitions\Admin\DaftarKeretaApi\TambahKASteps.class

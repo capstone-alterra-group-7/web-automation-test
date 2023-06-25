@@ -8,6 +8,7 @@ D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Login\Logi
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\DaftarKeretaApi\EditKAPage.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Logout\LogoutSteps.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Login\LoginSteps.java
+D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\TambahDataHotelSteps.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\DaftarKeretaApi\TambahKAPage.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Admin\DaftarStasiun\DaftarStasiunSteps.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\DaftarPengguna\TambahPenggunaPage.java
@@ -15,6 +16,7 @@ D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\Daft
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Admin\DaftarTiketKeretaApi\LihatTiketKASteps.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\TransaksiPesananHotel\DetailTransaksiPesananHotelPage.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Admin\DaftarKeretaApi\TambahKASteps.java
+D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\DaftarHotel\TambahDataHotelPage.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Admin\DaftarKeretaApi\Delete_KA.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\stepdefinitions\Admin\DaftarPengguna\EditPenggunaSteps.java
 D:\D\QE_Alta\capstone\web-automation-test\src\test\java\starter\pages\Logout\LogoutPage.java
