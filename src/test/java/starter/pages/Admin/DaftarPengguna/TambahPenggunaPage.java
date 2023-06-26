@@ -10,10 +10,10 @@ public class TambahPenggunaPage extends PageObject {
         return By.xpath("//*[@id=\"root\"]/div/div[1]/div/div/div/div[3]/div/a[5]");}
 
     private By BtnTambahPengguna() {
-        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/div/button");}
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/div/div[2]/button");}
 
     private By BtnIyaTambahkanPengguna() {
-        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[3]/div/div[2]/button[2]");}
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[3]/div/div/button[2]");}
 
     private By SliderKeaktifan() {
         return By.xpath("//*[@id=\"flexSwitchCheckDefault01\"]");}
@@ -40,7 +40,7 @@ public class TambahPenggunaPage extends PageObject {
         return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/div/div/button");}
 
     private By BtnIyaSimpanData() {
-        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[3]/div/div[2]/button[2]");}
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[3]/div/div/button[2]");}
 
     //=============================================== Functional ======================================================
     public void clickMenuPengguna() {

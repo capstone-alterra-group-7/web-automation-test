@@ -69,15 +69,20 @@ public class TambahKASteps {
     @And("User set arrived time of KA2")
     public void userInputJamTiba() {
         tambahKAPage.inputJamTiba("0811");
+    }
+
+    @And("User set arrived time of KA{int}")
+    public void userSetArrivedTimeOfKA(int arg0) {
+        tambahKAPage.inputJamTiba2("0811");
         tambahKAPage.clickLanjutkan();
         tambahKAPage.clickSimpanPerubahan();
     }
 
     @And("User set price")
     public void userInputHargaTiket1() {
-        tambahKAPage.inputHargaTiket1("100.000");
-        tambahKAPage.inputHargaTiket2("0");
-        tambahKAPage.inputHargaTiket3("0");
+        tambahKAPage.inputHargaTiket1("100000");
+        tambahKAPage.inputHargaTiket2("180000");
+        tambahKAPage.inputHargaTiket3("240000");
     }
 
     @And("User add Gerbong and input name of gerbong")
@@ -464,5 +469,20 @@ public void userOnLoginPage7() {
         tambahKAPage.clickTetapkanFilterKABT();
         tambahKAPage.validateInactiveKAOnPage();
 
+    }
+
+    @And("User set rute{int}")
+    public void userSetRute(int arg0) {
+        tambahKAPage.clickRute2();
+    }
+
+    @And("User click Lanjutkan")
+    public void userClickLanjutkan() {
+        tambahKAPage.ClickLanjutkan();
+    }
+
+    @And("User click Simpan Perubahan")
+    public void userClickSimpanPerubahan() {
+        tambahKAPage.ClickSimpanPerubahan();
     }
 }

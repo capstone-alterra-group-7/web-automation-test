@@ -1,18 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 28.267 s <<< FAILURE! - in starter.CucumberTestSuite
-As a user i want to create a new data hotel.as user i want to create a new data hotel  Time elapsed: 22.429 s  <<< ERROR!
-net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: /html/body/div[4]/div/div/div/div[6]/span to be enabled (tried for 5 second(s) with 100 milliseconds interval)
-Caused by: org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"xpath","selector":"/html/body/div[4]/div/div/div/div[6]/span"}
-  (Session info: chrome=114.0.5735.134)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ddfbf42a06db361a201d8b8b0d761482, findElement {using=xpath, value=/html/body/div[4]/div/div/div/div[6]/span}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 114.0.5735.134, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\ADWUSE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:61206}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61206/devtoo..., se:cdpVersion: 114.0.5735.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ddfbf42a06db361a201d8b8b0d761482
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 45.176 s <<< FAILURE! - in starter.CucumberTestSuite
+As a user i want to add a new KA.as user i want to adding KA data with complete data  Time elapsed: 20.61 s  <<< ERROR!
+io.cucumber.core.runner.AmbiguousStepDefinitionsException: 
+"User set rute2" matches more than one step definition:
+  "User set rute2" in starter.stepdefinitions.Admin.DaftarKeretaApi.TambahKASteps.userChecklistRute1()
+  "User set rute{int}" in starter.stepdefinitions.Admin.DaftarKeretaApi.TambahKASteps.userSetRute(int)
 

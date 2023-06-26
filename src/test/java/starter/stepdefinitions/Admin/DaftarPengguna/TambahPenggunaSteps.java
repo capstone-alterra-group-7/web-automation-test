@@ -24,7 +24,7 @@ public class TambahPenggunaSteps {
     }
 
     @And("user input Email")
-    public void userInputEmail() { tambahPengguna.userInputEmail("admin@gmail.comx");
+    public void userInputEmail() { tambahPengguna.userInputEmail("auliacld19@gmail.com");
     }
 
     @And("user input Password")
