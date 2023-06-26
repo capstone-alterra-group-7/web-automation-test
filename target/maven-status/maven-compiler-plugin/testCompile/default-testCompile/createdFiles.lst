@@ -8,6 +8,7 @@ starter\pages\Admin\DaftarKeretaApi\TambahKAPage.class
 starter\pages\Admin\DaftarPengguna\EditPenggunaPage.class
 starter\pages\DetailKAPage.class
 starter\pages\Admin\DaftarPengguna\TambahPenggunaPage.class
+starter\stepdefinitions\Admin\DaftarHotel\TambahDataHotelSteps.class
 starter\pages\Admin\TransaksiPesananHotel\DetailTransaksiPesananHotelPage.class
 starter\stepdefinitions\Admin\TransaksiPesananHotel\DetailTransaksiPesananHotelSteps.class
 starter\stepdefinitions\DetailKASteps.class
@@ -19,7 +20,6 @@ starter\pages\Admin\DaftarHotel\TambahDataHotelPage.class
 starter\pages\Admin\DaftarStasiun\DaftarStasiun.class
 starter\pages\Login\LoginPage.class
 starter\CucumberTestSuite.class
-starter\stepdefinitions\TambahDataHotelSteps.class
 starter\stepdefinitions\EditKASteps.class
 starter\pages\Logout\LogoutPage.class
 starter\stepdefinitions\Admin\DaftarKeretaApi\TambahKASteps.class

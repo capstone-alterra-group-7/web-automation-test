@@ -25,7 +25,7 @@ public class TambahKAPage extends PageObject {
     private By menuKA() {
         return By.xpath("//*[@id=\"root\"]/div/div[1]/div/div/div/div[3]/div/a[2]");}
     private By TambahKaBT() {
-        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/div/button");}
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/div/div[2]/button");}
     private By TambahKaBT2() {
         return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[3]/div/div/button[2]");}
     private By tambahKADashboard() {
@@ -45,11 +45,15 @@ public class TambahKAPage extends PageObject {
     private By TambahRuteBT() {
         return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[2]/div/button");}
     private By TambahRute1Check() {
-        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[4]/div/div[1]/div[2]/div[1]/input");}
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[4]/div/div[1]/div[2]/div[7]/input");}
+    private By ClickRute2(){
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[4]/div/div[1]/div[2]/div[6]/input");
+    }
     private By TambahkanRuteBT() {
         return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[2]/div[2]/div[4]/div/div[2]/button[2]");}
     private By JamTibaField1() {
         return By.xpath("//*[@id=\"waktu-tiba\"]/input");}
+
     private By LanjutkanBT() {
         return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/div/button");}
     private By SimpanPerubahanBT() {
@@ -89,6 +93,13 @@ public class TambahKAPage extends PageObject {
     }
     private By succesSaveKaValidate(){
         return By.xpath("//*[@id=\"swal2-html-container\"]/div/img");
+    }
+    private By LanjutkanButton(){
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[1]/div/button");
+    }
+
+    private By SimpanPerubahanBtn(){
+        return By.xpath("//*[@id=\"root\"]/div/div[2]/div/div[3]/div/div/button[2]");
     }
     //=============================================== Functional ======================================================
 
@@ -231,5 +242,21 @@ public class TambahKAPage extends PageObject {
     @Step
     public void validateInactiveKAOnPage(){
         $(PageOfListInactiveKA()).isDisplayed();
+    }
+    @Step
+    public void clickRute2() {
+        $(ClickRute2()).click();
+    }
+    @Step
+    public void inputJamTiba2(String jamtiba) {
+        $(JamTibaField1()).type(jamtiba);
+    }
+
+    public void ClickLanjutkan() {
+        $(LanjutkanButton()).click();
+    }
+
+    public void ClickSimpanPerubahan() {
+        $(SimpanPerubahanBtn()).click();
     }
 }

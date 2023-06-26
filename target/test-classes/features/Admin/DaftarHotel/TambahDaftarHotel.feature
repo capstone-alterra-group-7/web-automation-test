@@ -1,6 +1,6 @@
 Feature: As a user i want to create a new data hotel
 
-  @CreateHotel
+  @CreateDaftarHotel
   Scenario: as user i want to create a new data hotel
     Given user on login page
     When user input email

@@ -12,8 +12,13 @@ Feature: As a user i want to add a new KA
     And user click tambah KA2
     And user set active KA2
     And user input name of KA2
+    And user click Tambah Rute
     And User set rute2
+    And User set rute21
     And User set arrived time of KA2
+    And User set arrived time of KA21
+    And User click Lanjutkan
+    And User click Simpan Perubahan
     And User set price
     And User add Gerbong and input name of gerbong
     And User save a new KA
